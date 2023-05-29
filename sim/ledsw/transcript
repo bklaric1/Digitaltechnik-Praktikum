@@ -1,0 +1,26 @@
+# Loading project ledsw
+# Compile of ledsw_rtl.vhd was successful.
+# Compile of t_ledsw.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.t_ledsw(tbench)
+# vsim work.t_ledsw(tbench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.t_ledsw(tbench)
+# Loading work.ledsw(rtl)
+add wave sim:/t_ledsw/*
+run -all
+restart
+# Compile of ledsw_rtl.vhd was successful.
+# Compile of t_ledsw.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+run -all
+# Compile of ledsw_rtl.vhd was successful.
+# Compile of t_ledsw.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+run -all
+restart
+# Loading work.t_ledsw(tbench)
+# Loading work.ledsw(rtl)
+run -all

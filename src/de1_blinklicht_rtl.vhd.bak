@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity de1_blinklicht is 
+port ( SW       : in  std_ulogic_vector(9 downto 0);
+       KEY      : in  std_ulogic_vector(3 downto 0); 
+       LEDG     : out std_ulogic_vector(7 downto 0);   -- green LEDs
+       LEDR     : out std_ulogic_vector(9 downto 0));  -- red LEDs
+end entity;
+
+architecture rtl of de1_blinklicht is
+
+  signal rst_n,clk   : std_ulogic; 
+
+begin
+    
+
+  ---------------------------------------------------------
+  -- Connections to switches, leds and keys
+  ---------------------------------------------------------
+  rst_n   <= KEY(0);         -- KEYS are 0 when pushed...
+  clk     <= KEY(1);         -- KEYS are 0 when pushed...
+  LEDG(0) <= rst_n;
+  LEDG(1) <= clk; 
+
+end architecture rtl;

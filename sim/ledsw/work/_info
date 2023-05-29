@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/caeuser/projects/digitaltechnikpraktikum/sim/ledsw
+Eledsw
+Z1 w1680445256
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/caeuser/projects/digitaltechnikpraktikum/sim/ledsw
+Z5 8/home/caeuser/projects/digitaltechnikpraktikum/src/ledsw_rtl.vhd
+Z6 F/home/caeuser/projects/digitaltechnikpraktikum/src/ledsw_rtl.vhd
+l0
+L5
+V4n@CQW87HL`o0NAlciWAa0
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1683496053.446842
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/caeuser/projects/digitaltechnikpraktikum/src/ledsw_rtl.vhd|
+Z10 !s107 /home/caeuser/projects/digitaltechnikpraktikum/src/ledsw_rtl.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 fT8LLF?l]PebTKIZBH:L43
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 5 ledsw 0 22 4n@CQW87HL`o0NAlciWAa0
+l11
+L10
+V2hCE`z@C>=@6Ra<KO2TA@2
+!s100 lN>OB2iBIU?POdEW01gD53
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Et_ledsw
+Z13 w1683496054
+R2
+R3
+R4
+Z14 8/home/caeuser/projects/digitaltechnikpraktikum/src/t_ledsw.vhd
+Z15 F/home/caeuser/projects/digitaltechnikpraktikum/src/t_ledsw.vhd
+l0
+L7
+ViE``MFcZIJZ_fB=o5XT4[3
+!s100 O?7L1>1ojR@Ncc5c9RWZL2
+R7
+32
+!i10b 1
+Z16 !s108 1683496054.843372
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|/home/caeuser/projects/digitaltechnikpraktikum/src/t_ledsw.vhd|
+Z18 !s107 /home/caeuser/projects/digitaltechnikpraktikum/src/t_ledsw.vhd|
+R11
+R12
+Atbench
+R2
+R3
+Z19 DEx4 work 7 t_ledsw 0 22 iE``MFcZIJZ_fB=o5XT4[3
+l23
+L10
+VM_8Y[_l<oh<5P`00=zGVB3
+!s100 CoK5L[<RUN4U2LP8jX`;91
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R11
+R12

@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity de1_majority is
+
+end entity;
+
+architecture rtl of de1_majority is
+
+begin
+
+end architecture rtl;

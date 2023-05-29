@@ -1,0 +1,17 @@
+/home/caeuser/projects/digitaltechnikpraktikum/src/ledsw_rtl.vhd {1 {vcom -work work -2002 -explicit /home/caeuser/projects/digitaltechnikpraktikum/src/ledsw_rtl.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ledsw
+-- Compiling architecture rtl of ledsw
+
+} {} {}} /home/caeuser/projects/digitaltechnikpraktikum/src/t_ledsw.vhd {1 {vcom -work work -2002 -explicit /home/caeuser/projects/digitaltechnikpraktikum/src/t_ledsw.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity t_ledsw
+-- Compiling architecture tbench of t_ledsw
+
+} {} {}}

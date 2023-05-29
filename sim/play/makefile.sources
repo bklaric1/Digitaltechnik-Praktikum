@@ -1,0 +1,2 @@
+SYN_SOURCE_FILES = \
+../../src/play_rtl.vhd

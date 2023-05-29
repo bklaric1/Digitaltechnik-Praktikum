@@ -1,0 +1,5 @@
+SYN_SOURCE_FILES = \
+../../src/play_rtl.vhd \
+../../src/rising_edge_detector_rtl.vhd \
+../../src/count1s_rtl.vhd \
+../../src/de1_play_structure.vhd
