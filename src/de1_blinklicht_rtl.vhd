@@ -16,14 +16,18 @@ architecture rtl of de1_blinklicht is
 
 begin
 
-blinklicht : process(rst_n, clk, SW(0)) --created a process sensitive to changes on rst_n, clk and SW(0)
-begin
-		
+current_state <= start when rst_n = '0' else next_state when rising_edge(clk); 
+
+		/*
 		--setting the first state depending on reset
 		if(rst_n = '0') then current_state <= start;
 		--setting the next state depending on rising_edge(clk)
 		elsif rising_edge(clk) then current_state <=next_state;
 		end if;
+	*/
+
+blinklicht : process(current_state, next_state, SW(0)) --created a process sensitive to changes on rst_n, clk and SW(0)
+begin
 
 		--case when statement is used when we have more paths we can take depending on the value of the input signal or expression
 		case current_state is

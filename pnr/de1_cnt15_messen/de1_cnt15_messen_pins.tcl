@@ -40,12 +40,14 @@ set_location_assignment PIN_F1  -to HEX0[5]
 set_location_assignment PIN_E2  -to HEX0[6]
 set_location_assignment PIN_L1  -to CLOCK_50
 set_location_assignment PIN_H12  -to CLOCK_50_OUT
-set_location_assignment PIN_H13  -to CLK_IN
-set_location_assignment PIN_E14  -to done_o
-set_location_assignment PIN_E15  -to ld_i
-set_location_assignment PIN_F12  -to cnt_o
-set_location_assignment PIN_F13  -to clk
-set_location_assignment PIN_D14  -to rst_n
+set_location_assignment PIN_E14  -to DONE_O
+set_location_assignment PIN_E15  -to LD_I
+set_location_assignment PIN_F15  -to RST_N
+set_location_assignment PIN_C14  -to CNT_O[0]
+set_location_assignment PIN_D14  -to CNT_O[1]
+set_location_assignment PIN_D15  -to CNT_O[2]
+set_location_assignment PIN_D16  -to CNT_O[3]
+
 
 
 

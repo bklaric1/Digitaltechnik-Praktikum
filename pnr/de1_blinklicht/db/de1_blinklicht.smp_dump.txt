@@ -1,0 +1,8 @@
+
+State Machine - |de1_blinklicht|current_state
+Name current_state.schritt3 current_state.schritt2b current_state.schritt2a current_state.schritt1 current_state.start 
+current_state.start 0 0 0 0 0 
+current_state.schritt1 0 0 0 1 1 
+current_state.schritt2a 0 0 1 0 1 
+current_state.schritt2b 0 1 0 0 1 
+current_state.schritt3 1 0 0 0 1 

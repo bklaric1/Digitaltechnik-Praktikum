@@ -1,0 +1,79 @@
+# project open de1_cnt15_messen 
+# Loading project de1_cnt15_messen
+#  vsim work.t_de1_cnt15_messen(tbench) 
+# vsim work.t_de1_cnt15_messen(tbench) 
+# ** Error: (vsim-3170) Could not find '/home/caeuser/projects/Digitaltechnik-Praktikum/sim/de1_cnt15_messen/work.t_de1_cnt15_messen(tbench)'.
+# Error loading design
+#  add wave * 
+#  run -a 
+# No Design Loaded!
+#  
+# Compile of de1_cnt15_messen_rtl.vhd was successful.
+# Compile of cnt15_rtl.vhd was successful.
+# Compile of bin2seg_rtl.vhd was successful.
+# Compile of t_de1_cnt15_messen.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim work.de1_cnt15_messen
+# vsim work.de1_cnt15_messen 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.de1_cnt15_messen(rtl)
+# Loading ieee.numeric_std(body)
+# Loading work.cnt15(rtl)
+# Loading work.bin2seg(rtl)
+add wave -position end  sim:/de1_cnt15_messen/CLOCK_50
+add wave -position end  sim:/de1_cnt15_messen/SW
+add wave -position end  sim:/de1_cnt15_messen/HEX0
+run -all
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /de1_cnt15_messen/cnt15_i0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /de1_cnt15_messen/cnt15_i0
+vsim work.t_de1_cnt15_messen(tbench)
+# vsim work.t_de1_cnt15_messen(tbench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.t_de1_cnt15_messen(tbench)
+# ** Warning: (vsim-3473) Component instance "de1_cnt15_i0 : de1_cnt15" is not bound.
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_cnt15_messen File: /home/caeuser/projects/Digitaltechnik-Praktikum/src/t_de1_cnt15_messen.vhd
+add wave -position end  sim:/t_de1_cnt15_messen/greenleds
+run -all
+# Compile of de1_cnt15_messen_rtl.vhd was successful.
+# Compile of cnt15_rtl.vhd was successful.
+# Compile of bin2seg_rtl.vhd was successful.
+# Compile of t_de1_cnt15_messen.vhd failed with 1 errors.
+# 4 compiles, 1 failed with 1 error. 
+# Compile of de1_cnt15_messen_rtl.vhd was successful.
+# Compile of cnt15_rtl.vhd was successful.
+# Compile of bin2seg_rtl.vhd was successful.
+# Compile of t_de1_cnt15_messen.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+run -all
+add wave -position end  sim:/t_de1_cnt15_messen/simstop
+restart -f
+# Loading work.t_de1_cnt15_messen(tbench)
+# Loading work.de1_cnt15_messen(rtl)
+# ** Failure: (vsim-3817) Port "CLOCK_50" of entity "de1_cnt15_messen" is not in the component being instantiated.
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_cnt15_messen/de1_cnt15_i0 File: /home/caeuser/projects/Digitaltechnik-Praktikum/src/de1_cnt15_messen_rtl.vhd Line: 10
+# Loading ieee.numeric_std(body)
+# Loading work.cnt15(rtl)
+# ** Fatal: Bad library format, library not compiled with ALTERA compiler.
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_cnt15_messen/de1_cnt15_i0/cnt15_i0 File: /home/caeuser/projects/Digitaltechnik-Praktikum/src/de1_cnt15_messen_rtl.vhd Line: 51
+# FATAL ERROR while loading design
+vsim work.t_de1_cnt15_messen(tbench)
+# vsim work.t_de1_cnt15_messen(tbench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.t_de1_cnt15_messen(tbench)
+# Loading work.de1_cnt15_messen(rtl)
+# ** Failure: (vsim-3817) Port "CLOCK_50" of entity "de1_cnt15_messen" is not in the component being instantiated.
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_cnt15_messen/de1_cnt15_i0 File: /home/caeuser/projects/Digitaltechnik-Praktikum/src/de1_cnt15_messen_rtl.vhd Line: 10
+# Loading ieee.numeric_std(body)
+# Loading work.cnt15(rtl)
+# ** Fatal: Bad library format, library not compiled with ALTERA compiler.
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_cnt15_messen/de1_cnt15_i0/cnt15_i0 File: /home/caeuser/projects/Digitaltechnik-Praktikum/src/de1_cnt15_messen_rtl.vhd Line: 51
+# FATAL ERROR while loading design
+# Error loading design
