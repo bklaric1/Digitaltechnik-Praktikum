@@ -27,32 +27,7 @@ architecture rtl of de1_blnkauto is
            ld_long_i  : in      std_ulogic; 
            done_o     : out     std_ulogic); 
   end component;
-  
-  signal ld_short, ld_long, done : std_ulogic;
 
 begin
-/*
-	i1 <= ld_short;
-	i2 <= ld_long;
-	i3 <= done_i;
-*/
-	Zaehler : cntblnk
-		port map (
-			clk => CLOCK_50,
-			rst_n => KEY0,
-			ld_short_i => ld_short,
-			ld_long_i => ld_long,
-			done_o => done);
-			
-	Automat : blnkctr
-		port map (
-		clk => CLOCK_50,
-		rst_n => KEY0,
-		schalter_i => SW0,
-		ld_short_o => ld_short,
-		ld_long_o => ld_long,
-		done_i => done,
-		led_o => LEDR);
-		
 
 end architecture rtl;
