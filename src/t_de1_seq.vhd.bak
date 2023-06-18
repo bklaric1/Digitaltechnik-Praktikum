@@ -51,15 +51,13 @@ begin
   schalter_p : process
   begin
     schalter <= "0000";
-    wait for 100 us;
+    wait for 10 us;
     schalter <= "0001";
-    wait for 100 us;
-    schalter <= "0010";
-    wait for 100 us;
+    wait for 10 us;
     schalter <= "0011";
-    wait for 100 us;
+    wait for 10 us;
     schalter <= "1000";
-    wait for 100 us;
+    wait for 10 us;
     simstop <= true; 
     wait; 
   end process schalter_p;

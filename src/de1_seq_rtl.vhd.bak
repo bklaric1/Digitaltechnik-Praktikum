@@ -37,19 +37,12 @@ begin
       rst_n  => KEY0,
       ctrl_i => SW,
       ser_o  => ser);
-	
-	seqdet_i0 : seqdet
-	 port map (
-		clk	=> CLOCK_50,
-		rst_n	=> KEY0,
-		ser_i	=> ser,
-		done_o=> LEDR(9));
       
   EXP_PIN2 <= CLOCK_50;
   EXP_PIN4 <= ser;
   EXP_PIN6 <= '0'; 
   
   LEDR(3 downto 0) <= SW;
-  LEDR(8 downto 4) <= "00000"; 
+  LEDR(9 downto 4) <= "000000"; 
 
 end architecture rtl;
