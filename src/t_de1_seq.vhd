@@ -50,16 +50,8 @@ begin
   -- This is the process where the switches are switched.
   schalter_p : process
   begin
-    schalter <= "0000";
-    wait for 100 us;
-    schalter <= "0001";
-    wait for 100 us;
-    schalter <= "0010";
-    wait for 100 us;
     schalter <= "0011";
-    wait for 100 us;
-    schalter <= "1000";
-    wait for 100 us;
+    wait for 203 ms;
     simstop <= true; 
     wait; 
   end process schalter_p;

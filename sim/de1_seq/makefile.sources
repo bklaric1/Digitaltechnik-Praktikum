@@ -13,7 +13,9 @@
 SYN_SOURCE_FILES = \
 ../../src/de1_seq_rtl.vhd \
 ../../src/seqgen_rtl.vhd \
-../../src/seqdet_rtl.vhd
+../../src/seqdet_rtl.vhd \
+../../src/cntblnk_rtl.vhd \
+../../src/bin2seg_rtl.vhd
 
 # do not delete this line
 # -----------------------------------------------------------------------------
