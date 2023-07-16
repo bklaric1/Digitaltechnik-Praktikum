@@ -20,7 +20,7 @@ architecture rtl of de1_blnkauto is
            led_o       : out std_ulogic_vector(9 downto 0));  
   end component;
 
-  component cntblnk is 
+  component cntblnk1 is 
     port ( clk        : in      std_ulogic;
            rst_n      : in      std_ulogic; 
            ld_short_i : in      std_ulogic;
@@ -31,12 +31,8 @@ architecture rtl of de1_blnkauto is
   signal ld_short, ld_long, done : std_ulogic;
 
 begin
-/*
-	i1 <= ld_short;
-	i2 <= ld_long;
-	i3 <= done_i;
-*/
-	Zaehler : cntblnk
+
+	Zaehler : cntblnk1
 		port map (
 			clk => CLOCK_50,
 			rst_n => KEY0,

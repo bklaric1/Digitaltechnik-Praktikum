@@ -13,7 +13,7 @@
 SYN_SOURCE_FILES = \
 ../../src/de1_blnkauto_rtl.vhd \
 ../../src/blnkctr_rtl.vhd \
-../../src/cntblnk_rtl.vhd
+../../src/cntblnk1_rtl.vhd
 
 # do not delete this line
 # -----------------------------------------------------------------------------

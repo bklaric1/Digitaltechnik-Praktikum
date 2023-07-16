@@ -69,7 +69,7 @@ current_state <= idle1 when rst_n = '0' else next_state when rising_edge(clk);
 			ld_short_o <= '0';
 			ld_long_o <= '0';
 			
-			when others => next_state <= idle1;
+			when others => next_state <= idle1; --required
 			led_o <= "1010101010";
 			ld_short_o <= '0';
 			ld_long_o <= '0';

@@ -1,0 +1,219 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/caeuser/github/Digitaltechnik-Praktikum/sim/de1_seq
+Ebin2seg
+Z1 w1683488023
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/home/caeuser/github/Digitaltechnik-Praktikum/sim/de1_seq
+Z5 8/home/caeuser/github/Digitaltechnik-Praktikum/src/bin2seg_rtl.vhd
+Z6 F/home/caeuser/github/Digitaltechnik-Praktikum/src/bin2seg_rtl.vhd
+l0
+L6
+V`8[bod0Ff5R@DRnW<Dmae3
+Z7 OV;C;10.1d;51
+33
+Z8 !s108 1689533423.599904
+Z9 !s90 -work|work|-2008|-explicit|/home/caeuser/github/Digitaltechnik-Praktikum/src/bin2seg_rtl.vhd|
+Z10 !s107 /home/caeuser/github/Digitaltechnik-Praktikum/src/bin2seg_rtl.vhd|
+Z11 o-work work -2008 -explicit -O0
+Z12 tExplicit 1
+!s100 QUaRCEZ^G4TXG>=ARVOFo0
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 7 bin2seg 0 22 `8[bod0Ff5R@DRnW<Dmae3
+l13
+L11
+VMAN^36o7;fQ@]TAn71LXR2
+R7
+33
+R8
+R9
+R10
+R11
+R12
+!s100 FFg4UMH]bgYdel@]MS:dl3
+!i10b 1
+Ecntblnk
+Z13 w1689533141
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z15 8/home/caeuser/github/Digitaltechnik-Praktikum/src/cntblnk_rtl.vhd
+Z16 F/home/caeuser/github/Digitaltechnik-Praktikum/src/cntblnk_rtl.vhd
+l0
+L7
+Vd]HD8o8mbHJ[c=LFUZUeT2
+R7
+33
+Z17 !s108 1689533423.572412
+Z18 !s90 -work|work|-2008|-explicit|/home/caeuser/github/Digitaltechnik-Praktikum/src/cntblnk_rtl.vhd|
+Z19 !s107 /home/caeuser/github/Digitaltechnik-Praktikum/src/cntblnk_rtl.vhd|
+R11
+R12
+!s100 `gP;D[LPCH^Kj=W5k?cUj1
+!i10b 1
+Artl
+R14
+R2
+R3
+DEx4 work 7 cntblnk 0 22 d]HD8o8mbHJ[c=LFUZUeT2
+l18
+L14
+V9KeZc??zlidMWebCn^XI13
+R7
+33
+R17
+R18
+R19
+R11
+R12
+!s100 fKhEHP<d07A;]klgz2@3Q0
+!i10b 1
+Ede1_seq
+Z20 w1689533121
+R2
+R3
+R4
+Z21 8/home/caeuser/github/Digitaltechnik-Praktikum/src/de1_seq_rtl.vhd
+Z22 F/home/caeuser/github/Digitaltechnik-Praktikum/src/de1_seq_rtl.vhd
+l0
+L4
+V19]0O5c;^GR9UnJC>ec2:3
+R7
+33
+Z23 !s108 1689533423.497785
+Z24 !s90 -work|work|-2008|-explicit|/home/caeuser/github/Digitaltechnik-Praktikum/src/de1_seq_rtl.vhd|
+Z25 !s107 /home/caeuser/github/Digitaltechnik-Praktikum/src/de1_seq_rtl.vhd|
+R11
+R12
+!s100 mbAGlS@5cBod8e:bKPKEJ3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 7 de1_seq 0 22 19]0O5c;^GR9UnJC>ec2:3
+l56
+L18
+VlMO1ZTl=8P?fGon]D2`J70
+R7
+33
+R23
+R24
+R25
+R11
+R12
+!s100 dC<SzFJ_GOJNK8olRYWg90
+!i10b 1
+Eseqdet
+Z26 w1689532099
+R2
+R3
+R4
+Z27 8/home/caeuser/github/Digitaltechnik-Praktikum/src/seqdet_rtl.vhd
+Z28 F/home/caeuser/github/Digitaltechnik-Praktikum/src/seqdet_rtl.vhd
+l0
+L4
+VEY>l<:]DT[CjjBU7222I>2
+R7
+33
+Z29 !s108 1689533423.551503
+Z30 !s90 -work|work|-2008|-explicit|/home/caeuser/github/Digitaltechnik-Praktikum/src/seqdet_rtl.vhd|
+Z31 !s107 /home/caeuser/github/Digitaltechnik-Praktikum/src/seqdet_rtl.vhd|
+R11
+R12
+!s100 l_]d3WaSjkk=eOgfz<J?e3
+!i10b 1
+Artl
+R2
+R3
+DEx4 work 6 seqdet 0 22 EY>l<:]DT[CjjBU7222I>2
+l21
+L14
+V]>LODb4e7k>MlCHKh9n[h0
+R7
+33
+R29
+R30
+R31
+R11
+R12
+!s100 2FYLn5W<1jV9dTO8l?IWn0
+!i10b 1
+Eseqgen
+Z32 w1680438080
+R14
+R2
+R3
+R4
+Z33 8/home/caeuser/github/Digitaltechnik-Praktikum/src/seqgen_rtl.vhd
+Z34 F/home/caeuser/github/Digitaltechnik-Praktikum/src/seqgen_rtl.vhd
+l0
+L5
+Vg^EIIcFMYKMUP<><[<7Jm0
+R7
+33
+Z35 !s108 1689533423.520627
+Z36 !s90 -work|work|-2008|-explicit|/home/caeuser/github/Digitaltechnik-Praktikum/src/seqgen_rtl.vhd|
+Z37 !s107 /home/caeuser/github/Digitaltechnik-Praktikum/src/seqgen_rtl.vhd|
+R11
+R12
+!s100 _kTb[?G77]3cVOUa94EF53
+!i10b 1
+Artl
+R14
+R2
+R3
+DEx4 work 6 seqgen 0 22 g^EIIcFMYKMUP<><[<7Jm0
+l23
+L12
+V3jBf@1OXhBP[UTR73c=fa3
+R7
+33
+R35
+R36
+R37
+R11
+R12
+!s100 Q2B6=dKbjd]jeV51jX7[;3
+!i10b 1
+Et_de1_seq
+Z38 w1689518644
+R2
+R3
+R4
+Z39 8/home/caeuser/github/Digitaltechnik-Praktikum/src/t_de1_seq.vhd
+Z40 F/home/caeuser/github/Digitaltechnik-Praktikum/src/t_de1_seq.vhd
+l0
+L4
+V0KSV`g:bV9jLAa4k@FG_o0
+!s100 DRM6>?4Db<kfjS0IAmEJJ0
+R7
+33
+!i10b 1
+Z41 !s108 1689533423.620189
+Z42 !s90 -work|work|-2008|-explicit|/home/caeuser/github/Digitaltechnik-Praktikum/src/t_de1_seq.vhd|
+Z43 !s107 /home/caeuser/github/Digitaltechnik-Praktikum/src/t_de1_seq.vhd|
+R11
+R12
+Atbench
+R2
+R3
+DEx4 work 9 t_de1_seq 0 22 0KSV`g:bV9jLAa4k@FG_o0
+l25
+L7
+VD?Hn0MRRc=OH3jod74e7X0
+!s100 HolPFR?zimcRk^[WG^]Sa2
+R7
+33
+!i10b 1
+R41
+R42
+R43
+R11
+R12

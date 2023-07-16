@@ -1,0 +1,28 @@
+# project open de1_seq 
+# Loading project de1_seq
+#  vsim work.t_de1_seq(tbench) 
+# vsim work.t_de1_seq(tbench) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.t_de1_seq(tbench)
+# Loading work.de1_seq(rtl)
+# Loading ieee.numeric_std(body)
+# Loading work.seqgen(rtl)
+# Loading work.seqdet(rtl)
+# Loading work.cntblnk(rtl)
+# Loading work.bin2seg(rtl)
+#  add wave * 
+#  run -a 
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_seq/de1_seq_i0/seqgen_i0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_seq/de1_seq_i0/seqgen_i0
+#  
+add wave -position end  sim:/t_de1_seq/de1_seq_i0/zaehler_i0/out_bin
+restart -f
+run -all
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_seq/de1_seq_i0/seqgen_i0
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /t_de1_seq/de1_seq_i0/seqgen_i0

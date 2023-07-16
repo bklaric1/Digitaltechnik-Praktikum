@@ -3,7 +3,8 @@ set_location_assignment PIN_L22 -to SW[0]
 set_location_assignment PIN_L21 -to SW[1]
 set_location_assignment PIN_M22 -to SW[2]
 set_location_assignment PIN_V12 -to SW[3]
-set_location_assignment PIN_R22 -to KEY0 
+set_location_assignment PIN_R22 -to KEY0
+set_location_assignment PIN_T22 -to KEY2
 set_location_assignment PIN_L1  -to CLOCK_50   
 set_location_assignment PIN_R20 -to LEDR[0]
 set_location_assignment PIN_R19 -to LEDR[1]
@@ -25,6 +26,27 @@ set_location_assignment PIN_H1 -to HEX0[3]
 set_location_assignment PIN_F2 -to HEX0[4]
 set_location_assignment PIN_F1 -to HEX0[5]
 set_location_assignment PIN_E2 -to HEX0[6]
+set_location_assignment PIN_E1  -to HEX1[0]
+set_location_assignment PIN_H6  -to HEX1[1]
+set_location_assignment PIN_H5  -to HEX1[2]
+set_location_assignment PIN_H4  -to HEX1[3]
+set_location_assignment PIN_G3  -to HEX1[4]
+set_location_assignment PIN_D2  -to HEX1[5]
+set_location_assignment PIN_D1  -to HEX1[6]
+set_location_assignment PIN_G5  -to HEX2[0]
+set_location_assignment PIN_G6  -to HEX2[1]
+set_location_assignment PIN_C2  -to HEX2[2]
+set_location_assignment PIN_C1  -to HEX2[3]
+set_location_assignment PIN_E3  -to HEX2[4]
+set_location_assignment PIN_E4  -to HEX2[5]
+set_location_assignment PIN_D3  -to HEX2[6]
+set_location_assignment PIN_F4  -to HEX3[0]
+set_location_assignment PIN_D5  -to HEX3[1]
+set_location_assignment PIN_D6  -to HEX3[2]
+set_location_assignment PIN_J4  -to HEX3[3]
+set_location_assignment PIN_L8  -to HEX3[4]
+set_location_assignment PIN_F3  -to HEX3[5]
+set_location_assignment PIN_D4  -to HEX3[6]
 
 
 
