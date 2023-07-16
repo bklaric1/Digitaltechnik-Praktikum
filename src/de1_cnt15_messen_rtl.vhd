@@ -36,15 +36,14 @@ architecture rtl of de1_cnt15_messen is
   
 begin
 
-	CLOCK_50_OUT <= CLOCK_50;
-	RST_N <= KEY(0);
+	CLOCK_50_OUT <= CLOCK_50;  --clock auf gio rausbringen
+	RST_N <= KEY(0); --auch so mit rst, ld, done und 4 bits von cnt
 	LD_I <= SW(0);
 	DONE_O <= done1;
 	CNT_O <= cnt;
 	
   cnt15_i0 : cnt15
     port map (
-      --clk    => KEY(1),
 	   clk => CLOCK_50,
       rst_n  => KEY(0),
       ld_i   => SW(0),

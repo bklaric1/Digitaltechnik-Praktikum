@@ -11,7 +11,7 @@ end entity;
 architecture rtl of de1_blinklicht is
 
   type state_t is (start, schritt1, schritt2a, schritt2b, schritt3); --enumeric data types initialization (used as states in automation)
-  signal current_state, next_state : state_t; --created signals which are type state_t, used as a transition between states
+  signal current_state, next_state : state_t; --created signals which are type state_t, used as a states
   signal rst_n,clk   : std_ulogic; --standard flipflop things
 
 begin
@@ -26,7 +26,7 @@ current_state <= start when rst_n = '0' else next_state when rising_edge(clk);
 		end if;
 	*/
 
-blinklicht : process(current_state, next_state, SW(0)) --created a process sensitive to changes on rst_n, clk and SW(0)
+blinklicht : process(current_state, next_state, SW(0)) --sensitivity list with things that are going to be read out of
 begin
 
 		--case when statement is used when we have more paths we can take depending on the value of the input signal or expression

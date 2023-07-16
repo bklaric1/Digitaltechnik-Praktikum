@@ -35,13 +35,12 @@ component cntones is
 begin
 
 	LEDR <= SW;
-	CLOCK_50_OUT <= CLOCK_50;
+	CLOCK_50_OUT <= CLOCK_50; --Ausgang auf GPIO Block, mit CLK_IN mit einer Brucke verbunden
 
 	zaehler_0 : cntones
 	port map (
-		--switches_i => SW(3 downto 0),
 		switches_i(3 downto 1) => SW(3 downto 1),
-		switches_i(0) => CLK_IN,
+		switches_i(0) => CLK_IN, --Langste Pfad, d.h. grosste Verzogerung
 		cnt_o		  => zaehler0);
 		
 	zaehler_1 : cntones
@@ -61,7 +60,6 @@ begin
 	
 	res <= resize(sum0,4) + resize(sum1,4) + resize(sum2, 4);
 
-	--LEDG(7) <= '1' when res > 5 else '0';
 	MAJ <= '1' when res > 5 else '0';
 	LEDG(6 downto 4) <= "000";
 	LEDG(3 downto 0) <= std_ulogic_vector(res);

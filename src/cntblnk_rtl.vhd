@@ -40,8 +40,7 @@ end architecture rtl;
 
 
 /*
--- Loadable downcounter which stops when cnt is 0
--- The done_o output is 1, when cnt is 0;
+
 
 entity cntblnk is 
 port ( clk        : in      std_ulogic;
