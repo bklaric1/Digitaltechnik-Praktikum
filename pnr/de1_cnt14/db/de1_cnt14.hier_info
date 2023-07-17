@@ -1,0 +1,36 @@
+|de1_cnt14
+KEY0 => cnt14:cnt14_i0.rst_n
+KEY0 => LEDG[0].DATAIN
+CLOCK_50 => cnt14:cnt14_i0.clk
+LEDG[0] <= KEY0.DB_MAX_OUTPUT_PORT_TYPE
+LEDG[1] <= <GND>
+LEDG[2] <= <GND>
+LEDG[3] <= <GND>
+LEDG[4] <= <GND>
+LEDG[5] <= <GND>
+LEDG[6] <= <GND>
+LEDG[7] <= <GND>
+CLOCK_50_OUT <= comb.DB_MAX_OUTPUT_PORT_TYPE
+DONE_O <= cnt14:cnt14_i0.done_o
+CNT_O[0] <= cnt14:cnt14_i0.cnt_o[0]
+CNT_O[1] <= cnt14:cnt14_i0.cnt_o[1]
+CNT_O[2] <= cnt14:cnt14_i0.cnt_o[2]
+CNT_O[3] <= cnt14:cnt14_i0.cnt_o[3]
+
+
+|de1_cnt14|cnt14:cnt14_i0
+clk => q[0].CLK
+clk => q[1].CLK
+clk => q[2].CLK
+clk => q[3].CLK
+rst_n => q[0].ACLR
+rst_n => q[1].ACLR
+rst_n => q[2].ACLR
+rst_n => q[3].ACLR
+done_o <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+cnt_o[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+cnt_o[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+cnt_o[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+cnt_o[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
